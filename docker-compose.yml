@@ -1,0 +1,44 @@
+version: '3.4'
+
+services:
+  mygithublibrary:
+    image: ${DOCKER_REGISTRY-}mygithublibrary
+    build:
+      context: .
+      dockerfile: MyGitHubLibrary/Dockerfile
+    depends_on:
+      - postgres
+    networks:
+      - mygithublibrarynetwork
+
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: "mygithublibrary"
+      POSTGRES_PASSWORD: "mygithublibrary"
+      POSTGRES_DB: "MyGitHubLibrary"
+    ports:
+      - "15432:5432"    
+    networks:
+      - mygithublibrarynetwork
+    restart: always
+    
+      
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "rogertostes@yahoo.com.br"
+      PGADMIN_DEFAULT_PASSWORD: "mygithublibrary"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgres
+    networks:
+      - mygithublibrarynetwork
+    restart: always
+
+networks: 
+  mygithublibrarynetwork:
+    driver: bridge
+
+
