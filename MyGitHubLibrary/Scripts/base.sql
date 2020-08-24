@@ -1,4 +1,4 @@
 ﻿CREATE TABLE Tag (
 	Id SERIAL PRIMARY KEY,
-	NomeTag VARCHAR ( 255 ) 	
+	NameTag VARCHAR ( 255 ) 	
 );

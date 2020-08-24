@@ -26,8 +26,8 @@ namespace MyGitHubLibrary.Repository
        
         public void InsertTag(Tag tag)
         {
-            this.conexao.Execute(@"INSERT Tag(NomeTag) VALUES (@NomeTag)",
-            new { NomeTag = tag.NomeTag });
+            this.conexao.Execute(@"INSERT Tag(NameTag) VALUES (@NameTag)",
+            new { NameTag = tag.NameTag });
         }
         public void DeleteTag(int Id)
         {           
@@ -35,8 +35,8 @@ namespace MyGitHubLibrary.Repository
         }
         public void UpdateTag(Tag tag)
         {
-            this.conexao.Execute("UPDATE Tag SET NomeTag=@NomeTag WHERE Id=" + tag.Id,
-            new { NomeTag = tag.NomeTag });
+            this.conexao.Execute("UPDATE Tag SET NameTag=@NameTag WHERE Id=" + tag.Id,
+            new { NameTag = tag.NameTag });
         }
 
     }

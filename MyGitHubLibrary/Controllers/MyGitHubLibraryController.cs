@@ -23,16 +23,16 @@ namespace MyGitHubLibrary.Controllers
         }
 
         [HttpPost]
-        public void PostTag([FromBody] Tag NomeTag, [FromServices] IConfiguration conf)
+        public void PostTag([FromBody] Tag NameTag, [FromServices] IConfiguration conf)
         {
-            new MyGitHubLibraryRepository(conf).InsertTag(NomeTag);
+            new MyGitHubLibraryRepository(conf).InsertTag(NameTag);
         }
 
         [HttpPut("{id}")]
-        public void PutTag(int id, [FromBody] Tag NomeTag, [FromServices] IConfiguration conf)
+        public void PutTag(int id, [FromBody] Tag NameTag, [FromServices] IConfiguration conf)
         {
-            NomeTag.Id = id;
-            new MyGitHubLibraryRepository(conf).UpdateTag(NomeTag);
+            NameTag.Id = id;
+            new MyGitHubLibraryRepository(conf).UpdateTag(NameTag);
         }
 
         [HttpDelete("{id}")]

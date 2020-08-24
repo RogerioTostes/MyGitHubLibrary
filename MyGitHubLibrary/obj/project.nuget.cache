@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ACQsuHNv1MDjohTyHZX/2fGYWvL5LVuXoHi/cMswqKD/aE+1m7xVPKzs8q69SFbBKiXZYVtjLyl4NfYZydvhNw==",
+  "dgSpecHash": "VnAh9PWYiwIoFdp2EfeljCIRSphXq08fju/d9AMSwGxwSYdzZlRuXMcXPCjDD0wM6JS8ZCuYTBg4Nify2HzOUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\rtostes\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
