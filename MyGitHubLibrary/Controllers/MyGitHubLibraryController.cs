@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using MyGitHubLibrary.Models;
-using MyGitHubLibrary.Repository;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Entities;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Repositories;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Services;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Service;
+using System.Collections.Generic;
 
 namespace MyGitHubLibrary.Controllers
 {
@@ -10,35 +12,39 @@ namespace MyGitHubLibrary.Controllers
     [Route("[controller]")]
     public class MyGitHubLibraryController : ControllerBase
     {
-        [HttpGet]
-        public List<Tag> GetTags([FromServices] IConfiguration conf)
+        private readonly IMyGitHubLibraryService _myGitHubLibraryService;
+        public MyGitHubLibraryController(IMyGitHubLibraryService myGitHubLibraryService)
         {
-            return new MyGitHubLibraryRepository(conf).GetTag();
+            _myGitHubLibraryService = myGitHubLibraryService;
+        }
+        [HttpGet]
+        public List<Tag> GetTags()
+        {
+            return _myGitHubLibraryService.GetTag();
         }
 
         [HttpGet("{id}")]
-        public Tag GetTagId(int id, [FromServices] IConfiguration conf)
+        public Tag GetTagId(int id)
         {
-            return new MyGitHubLibraryRepository(conf).GetTagId(id);
+            return _myGitHubLibraryService.GetTagId(id);
         }
 
         [HttpPost]
-        public void PostTag([FromBody] Tag NameTag, [FromServices] IConfiguration conf)
+        public void PostTag([FromBody] Tag NameTag)
         {
-            new MyGitHubLibraryRepository(conf).InsertTag(NameTag);
+            _myGitHubLibraryService.InsertTag(NameTag);
         }
 
         [HttpPut("{id}")]
-        public void PutTag(int id, [FromBody] Tag NameTag, [FromServices] IConfiguration conf)
+        public void PutTag(int id, [FromBody] Tag NameTag)
         {
-            NameTag.Id = id;
-            new MyGitHubLibraryRepository(conf).UpdateTag(NameTag);
+            _myGitHubLibraryService.UpdateTag(NameTag);
         }
 
         [HttpDelete("{id}")]
-        public void DeleteTag(int id, [FromServices] IConfiguration conf)
+        public void DeleteTag(int id)
         {
-            new MyGitHubLibraryRepository(conf).DeleteTag(id);
+            _myGitHubLibraryService.DeleteTag(id);
         }
 
     }

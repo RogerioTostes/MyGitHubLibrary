@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyGitHubLibrary.Core\MyGitHubLibrary.Domain.csproj" />
+    <ProjectReference Include="..\MyGitHubLibrary.Infra\MyGitHubLibrary.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj": {}
+    "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj": {
+    "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
-        "projectName": "MyGitHubLibrary",
-        "projectPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj",
+        "projectName": "MyGitHubLibrary.Domain",
+        "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj",
         "packagesPath": "C:\\Users\\rtostes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\obj\\",
+        "outputPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,33 +41,215 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Dapper": {
+            "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
-              "version": "[2.0.35, )"
-            },
-            "Dommel": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.10.9, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.5.1, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[2.2.5, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
+        "projectName": "MyGitHubLibrary.CrossCutting",
+        "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\rtostes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rtostes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj"
+              },
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj",
+        "projectName": "MyGitHubLibrary.Infra",
+        "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj",
+        "packagesPath": "C:\\Users\\rtostes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rtostes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
+        "projectName": "MyGitHubLibrary",
+        "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
+        "packagesPath": "C:\\Users\\rtostes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rtostes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj"
+              },
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj"
+              },
+              "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj": {
+                "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
             }
           },
           "imports": [

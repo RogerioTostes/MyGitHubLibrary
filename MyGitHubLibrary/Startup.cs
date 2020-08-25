@@ -11,6 +11,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MyGitHubLibrary.Configuration;
+using MyGitHubLibrary.CrossCutting;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Repositories;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Services;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Service;
+using MyGitHubLibrary.Infra.Data.Repositories;
 
 namespace MyGitHubLibrary
 {
@@ -22,10 +28,13 @@ namespace MyGitHubLibrary
         }
 
         public IConfiguration Configuration { get; }
-      
+
+        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.RegisterServices();
+            services.AddCors();
             services.ConfigureHttpClients();
             services.ConfigureMvc();
             object p = services.AddSwaggerGen(c => {
@@ -43,8 +52,9 @@ namespace MyGitHubLibrary
                         }
                     });
             });
-        }    
-               
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -59,6 +69,8 @@ namespace MyGitHubLibrary
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();
 

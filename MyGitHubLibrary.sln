@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGitHubLibrary", "MyGitHubLibrary\MyGitHubLibrary.csproj", "{93CAB199-7623-4A5B-8F05-B2F69D8FAFFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGitHubLibrary", "MyGitHubLibrary\MyGitHubLibrary.csproj", "{545D3688-656E-4206-82B6-C6144BDC431C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGitHubLibrary.Domain", "MyGitHubLibrary.Core\MyGitHubLibrary.Domain.csproj", "{CF5D6C51-462B-43F1-AB0E-F80D25885AB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyGitHubLibrary.Infra", "MyGitHubLibrary.Infra\MyGitHubLibrary.Infra.csproj", "{60128494-742D-4B48-BF0A-8FF04B465727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGitHubLibrary.CrossCutting", "MyGitHubLibrary.CrossCutting\MyGitHubLibrary.CrossCutting.csproj", "{FEF7A322-D02A-4446-81E2-3D96FD5D9516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93CAB199-7623-4A5B-8F05-B2F69D8FAFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93CAB199-7623-4A5B-8F05-B2F69D8FAFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93CAB199-7623-4A5B-8F05-B2F69D8FAFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93CAB199-7623-4A5B-8F05-B2F69D8FAFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545D3688-656E-4206-82B6-C6144BDC431C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545D3688-656E-4206-82B6-C6144BDC431C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545D3688-656E-4206-82B6-C6144BDC431C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545D3688-656E-4206-82B6-C6144BDC431C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5D6C51-462B-43F1-AB0E-F80D25885AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5D6C51-462B-43F1-AB0E-F80D25885AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5D6C51-462B-43F1-AB0E-F80D25885AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5D6C51-462B-43F1-AB0E-F80D25885AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60128494-742D-4B48-BF0A-8FF04B465727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60128494-742D-4B48-BF0A-8FF04B465727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60128494-742D-4B48-BF0A-8FF04B465727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60128494-742D-4B48-BF0A-8FF04B465727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF7A322-D02A-4446-81E2-3D96FD5D9516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF7A322-D02A-4446-81E2-3D96FD5D9516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF7A322-D02A-4446-81E2-3D96FD5D9516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF7A322-D02A-4446-81E2-3D96FD5D9516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {384D99C1-3BB4-48CE-99C5-5905C4B4B831}
+		SolutionGuid = {C4DBF213-991F-432B-B9DD-E49D14DC7651}
 	EndGlobalSection
 EndGlobal

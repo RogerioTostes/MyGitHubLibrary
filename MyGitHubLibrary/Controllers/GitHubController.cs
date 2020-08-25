@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyGitHubLibrary.Interface;
-using MyGitHubLibrary.Models;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Entities;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Repositories;
+using MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Services;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyGitHubLibrary.Controllers
@@ -11,13 +13,13 @@ namespace MyGitHubLibrary.Controllers
     [Route("[controller]")]
     public class GitHubController : ControllerBase
     {
-        private IGitHub _gitHubClient { get; }
-        
+        private IGitHubService _gitHubClient { get; }
 
-        public GitHubController(IGitHub gitHubService)
+
+        public GitHubController(IGitHubService gitHubService)
         {
             _gitHubClient = gitHubService;
-           
+
         }
         [HttpGet("/Filter/Starred")]
         public async Task<ActionResult<IEnumerable<object>>> GetStarred([FromQuery] Filter request)
@@ -32,7 +34,7 @@ namespace MyGitHubLibrary.Controllers
                     return BadRequest($"Error {_gitHubClient.SearchUserErrorMessage}");
             }
             catch (Exception ex)
-            {               
+            {
                 return StatusCode(500, $"Error");
             }
         }

@@ -1,4 +1,0 @@
-﻿CREATE TABLE Tag (
-	Id SERIAL PRIMARY KEY,
-	NameTag VARCHAR ( 255 ) 	
-);

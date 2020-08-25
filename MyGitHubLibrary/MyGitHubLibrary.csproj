@@ -2,19 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
-    <UserSecretsId>56c7b8f9-aa35-4446-a530-eac5bf934dc6</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
-    <PackageReference Include="Dommel" Version="2.0.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyGitHubLibrary.Core\MyGitHubLibrary.Domain.csproj" />
+    <ProjectReference Include="..\MyGitHubLibrary.CrossCutting\MyGitHubLibrary.CrossCutting.csproj" />
+    <ProjectReference Include="..\MyGitHubLibrary.Infra\MyGitHubLibrary.Infra.csproj" />
   </ItemGroup>
 
 
