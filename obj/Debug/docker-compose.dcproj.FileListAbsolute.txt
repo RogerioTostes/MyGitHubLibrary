@@ -11,7 +11,6 @@ C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\Swashbuckle.AspNetCore.S
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\Microsoft.OpenApi.dll
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\MyGitHubLibrary.Infra.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\System.Data.SqlClient.dll
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\Dapper.dll
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\MyGitHubLibrary.pdb
 C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\MyGitHubLibrary.Domain.pdb
@@ -20,3 +19,4 @@ C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\MyGitHubLibrary.Infra.pd
 C:\Users\rtostes\source\repos\MyGitHubLibrary\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\rtostes\source\repos\MyGitHubLibrary\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\rtostes\source\repos\MyGitHubLibrary\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\rtostes\source\repos\MyGitHubLibrary\bin\Debug\Npgsql.dll
