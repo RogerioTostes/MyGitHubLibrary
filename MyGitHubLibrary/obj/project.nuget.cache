@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z3QXzv6HyFVN/jpxuiMylK2om7g3olDTpbgGr3sDzoSyx77/5rLHygR27jDGkiqfG4qfj0dB5xilcFmUxVkwLg==",
+  "dgSpecHash": "+2qrPO//Sy9+HMUJ1lezgvYABMA4wIx/30xR8L6ylfQNF2nf01rl/fAXPYy5oAtG4aVKKmqwr866Ih5Z9s2JLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",

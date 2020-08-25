@@ -12,7 +12,8 @@ namespace MyGitHubLibrary.Infra.Data.Repositories
     public class TagRepository : ITag
     {
         private readonly IDbConnection conexao;
-        public TagRepository(IConfiguration conf) => conexao = new SqlConnection("Data Source=localhost,1433;Initial Catalog=MyGitHubLibrary;Persist Security Info=False;User ID=tmds;Password=tmds;MultipleActiveResultSets=False;");
+        //public TagRepository(IConfiguration conf) => conexao = new SqlConnection("Data Source=192.168.100.10,1433;Initial Catalog=MyGitHubLibrary;Persist Security Info=False;User ID=tmds;Password=tmds;MultipleActiveResultSets=False;");
+        public TagRepository(IConfiguration conf) => conexao = new SqlConnection("host=postgres;port=5432;database=MyGitHubLibrary;username=mygithublibrary;password=mygithublibrary");
 
         public List<Tag> GetTag()
         {
