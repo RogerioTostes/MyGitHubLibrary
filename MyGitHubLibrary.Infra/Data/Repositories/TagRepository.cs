@@ -9,10 +9,10 @@ using Microsoft.Extensions.Configuration;
 
 namespace MyGitHubLibrary.Infra.Data.Repositories
 {
-    public class MyGitHubLibraryRepository : IMyGitHubLibrary
+    public class TagRepository : ITag
     {
         private readonly IDbConnection conexao;
-        public MyGitHubLibraryRepository(IConfiguration conf) => conexao = new SqlConnection("Data Source=localhost,1433;Initial Catalog=MyGitHubLibrary;Persist Security Info=False;User ID=tmds;Password=tmds;MultipleActiveResultSets=False;");
+        public TagRepository(IConfiguration conf) => conexao = new SqlConnection("Data Source=localhost,1433;Initial Catalog=MyGitHubLibrary;Persist Security Info=False;User ID=tmds;Password=tmds;MultipleActiveResultSets=False;");
 
         public List<Tag> GetTag()
         {

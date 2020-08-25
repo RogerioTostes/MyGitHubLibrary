@@ -12,3 +12,17 @@ C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.csproj.CopyComplete
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.dll
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.pdb
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.deps.json
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.dll
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.pdb
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.dll
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.dll
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.pdb
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.pdb
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.csprojAssemblyReference.cache
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.AssemblyInfo.cs
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.csproj.CopyComplete
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.dll
+C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.CrossCutting\obj\Debug\netcoreapp3.1\MyGitHubLibrary.CrossCutting.pdb

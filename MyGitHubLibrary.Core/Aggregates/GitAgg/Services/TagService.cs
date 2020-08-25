@@ -10,34 +10,34 @@ using System.Text;
 
 namespace MyGitHubLibrary.Domain.Aggregates.GitAgg.Service
 {
-    public class MyGitHubLibraryService : IMyGitHubLibraryService
+    public class TagService : Interfaces.Services.ITagService
     {
 
-        private readonly IMyGitHubLibrary _myGitHubLibraryRepository;
-        public MyGitHubLibraryService(IMyGitHubLibrary myGitHubLibrary)
+        private readonly ITag _tagRepository;
+        public TagService(ITag tag)
         {
-            _myGitHubLibraryRepository = myGitHubLibrary;
+            _tagRepository = tag;
         }
         public List<Tag> GetTag()
         {
-            return _myGitHubLibraryRepository.GetTag();
+            return _tagRepository.GetTag();
         }
         public Tag GetTagId(int Id)
         {
-            return _myGitHubLibraryRepository.GetTagId(Id);
+            return _tagRepository.GetTagId(Id);
         }
 
         public void InsertTag(Tag tag)
         {
-            _myGitHubLibraryRepository.InsertTag(tag);
+            _tagRepository.InsertTag(tag);
         }
         public void DeleteTag(int Id)
         {
-            _myGitHubLibraryRepository.DeleteTag(Id);
+            _tagRepository.DeleteTag(Id);
         }
         public void UpdateTag(Tag tag)
         {
-            _myGitHubLibraryRepository.UpdateTag(tag);
+            _tagRepository.UpdateTag(tag);
         }
 
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxinA6ckaYCipnEBHZek3s4dIe7M/eoOrLrRGlCB9/dxmMqJciS4yoS9Fu8B630XG5mslg20dAsPnKXbgtRfBw==",
+  "dgSpecHash": "18Zpyf5j5hwIvRK8D2CEweqXAE3sBtlJz6ut9ys3EuP2FHUTd8moqiOs139OvEotD9dkBI41am5F0LOoott4/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj",
+  "projectFilePath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

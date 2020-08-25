@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QVswVO7F2N1j/cel8+yaLezvaqSz7kycBWweJxTOWE6eHFAlmco6yqt+SpLplWR/7OSa/hwI0l3Okpjay7v5uw==",
+  "dgSpecHash": "z3QXzv6HyFVN/jpxuiMylK2om7g3olDTpbgGr3sDzoSyx77/5rLHygR27jDGkiqfG4qfj0dB5xilcFmUxVkwLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
+  "projectFilePath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary\\MyGitHubLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rtostes\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\rtostes\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

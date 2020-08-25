@@ -4382,11 +4382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
       "projectName": "MyGitHubLibrary.CrossCutting",
-      "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\MyGitHubLibrary.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\rtostes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4405,11 +4405,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
-              "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj"
+            "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj": {
+              "projectPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.Core\\MyGitHubLibrary.Domain.csproj"
             },
-            "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj": {
-              "projectPath": "C:\\Users\\rtostes\\Desktop\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj"
+            "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj": {
+              "projectPath": "C:\\Users\\rtostes\\source\\repos\\MyGitHubLibrary\\MyGitHubLibrary.Infra\\MyGitHubLibrary.Infra.csproj"
             }
           }
         }

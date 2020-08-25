@@ -10,41 +10,41 @@ namespace MyGitHubLibrary.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class MyGitHubLibraryController : ControllerBase
+    public class TagController : ControllerBase
     {
-        private readonly IMyGitHubLibraryService _myGitHubLibraryService;
-        public MyGitHubLibraryController(IMyGitHubLibraryService myGitHubLibraryService)
+        private readonly ITagService _TagService;
+        public TagController(ITagService TagService)
         {
-            _myGitHubLibraryService = myGitHubLibraryService;
+            _TagService = TagService;
         }
         [HttpGet]
         public List<Tag> GetTags()
         {
-            return _myGitHubLibraryService.GetTag();
+            return _TagService.GetTag();
         }
 
         [HttpGet("{id}")]
         public Tag GetTagId(int id)
         {
-            return _myGitHubLibraryService.GetTagId(id);
+            return _TagService.GetTagId(id);
         }
 
         [HttpPost]
         public void PostTag([FromBody] Tag NameTag)
         {
-            _myGitHubLibraryService.InsertTag(NameTag);
+            _TagService.InsertTag(NameTag);
         }
 
         [HttpPut("{id}")]
         public void PutTag(int id, [FromBody] Tag NameTag)
         {
-            _myGitHubLibraryService.UpdateTag(NameTag);
+            _TagService.UpdateTag(NameTag);
         }
 
         [HttpDelete("{id}")]
         public void DeleteTag(int id)
         {
-            _myGitHubLibraryService.DeleteTag(id);
+            _TagService.DeleteTag(id);
         }
 
     }

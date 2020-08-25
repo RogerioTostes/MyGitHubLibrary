@@ -14,8 +14,8 @@ namespace MyGitHubLibrary.CrossCutting
     {
         public static void RegisterServices(this IServiceCollection services)
         {            
-            services.AddScoped<IMyGitHubLibraryService, MyGitHubLibraryService>();
-            services.AddScoped<IMyGitHubLibrary, MyGitHubLibraryRepository>();
+            services.AddScoped<ITagService, TagService>();
+            services.AddScoped<Domain.Aggregates.GitAgg.Interfaces.Repositories.ITag, TagRepository>();
         }
     }
 

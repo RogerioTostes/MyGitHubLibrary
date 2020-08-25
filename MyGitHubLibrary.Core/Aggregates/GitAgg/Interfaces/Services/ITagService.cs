@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
-namespace MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Repositories
+namespace MyGitHubLibrary.Domain.Aggregates.GitAgg.Interfaces.Services
 {
-    public interface IMyGitHubLibrary
+    public interface ITagService
     {
         List<Tag> GetTag();
         Tag GetTagId(int Id);
