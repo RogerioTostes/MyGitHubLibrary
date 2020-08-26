@@ -6,11 +6,3 @@ C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcorea
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.csproj.CoreCompileInputs.cache
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.dll
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.deps.json
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.AssemblyInfoInputs.cache
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.AssemblyInfo.cs
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.csproj.CoreCompileInputs.cache
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Core\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.pdb

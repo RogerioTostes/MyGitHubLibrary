@@ -16,6 +16,9 @@ services:
     entrypoint: tail -f /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '5001'
+      ASPNETCORE_Kestrel__Certificates__Default__Password: password
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       ASPNETCORE_URLS: https://+:443;http://+:80
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
@@ -31,11 +34,16 @@ services:
     networks:
       mygithublibrarynetwork: {}
     ports:
+    - published: 5000
+      target: 80
     - target: 80
+    - published: 5001
+      target: 443
     - target: 443
     tty: true
     volumes:
     - C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary:/app:rw
+    - C:\Users\rtostes\.aspnet\https:/https:ro
     - C:\Users\rtostes\vsdbg\vs2017u5:/remote_debugger:rw
     - C:\Users\rtostes\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\rtostes\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
@@ -67,4 +75,6 @@ services:
     - published: 15432
       target: 5432
     restart: always
+    volumes:
+    - C:\Users\rtostes\source\repos\MyGitHubLibrary\Scripts.sql:/docker-entrypoint-initdb.d/init.sql:rw
 version: '3.4'

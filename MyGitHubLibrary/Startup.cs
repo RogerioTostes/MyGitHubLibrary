@@ -66,7 +66,7 @@ namespace MyGitHubLibrary
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My GitHub Library V1");
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

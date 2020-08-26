@@ -8,6 +8,17 @@ services:
       dockerfile: MyGitHubLibrary/Dockerfile
     depends_on:
       - postgres
+    ports:
+      - "5000:80"
+      - "5001:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80/;https://+:443
+      - ASPNETCORE_HTTPS_PORT=5001 
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro
     networks:
       - mygithublibrarynetwork
 
@@ -18,7 +29,9 @@ services:
       POSTGRES_PASSWORD: "mygithublibrary"
       POSTGRES_DB: "MyGitHubLibrary"
     ports:
-      - "15432:5432"    
+      - "15432:5432" 
+    volumes:
+      - "./Scripts.sql:/docker-entrypoint-initdb.d/init.sql"
     networks:
       - mygithublibrarynetwork
     restart: always

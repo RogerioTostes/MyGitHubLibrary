@@ -10,15 +10,3 @@ C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcore
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.csproj.CopyComplete
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.dll
 C:\Users\rtostes\Desktop\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.deps.json
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\bin\Debug\netcoreapp3.1\MyGitHubLibrary.Domain.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.csprojAssemblyReference.cache
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.AssemblyInfoInputs.cache
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.AssemblyInfo.cs
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.csproj.CopyComplete
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.dll
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.pdb
-C:\Users\rtostes\source\repos\MyGitHubLibrary\MyGitHubLibrary.Infra\obj\Debug\netcoreapp3.1\MyGitHubLibrary.Infra.csproj.CoreCompileInputs.cache
