@@ -9,14 +9,14 @@ A Api se encontra dentro de um conteiner do Docker e sua arquitetura foi baseada
 2. [ASP.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 
 ## Como rodar
-git clone https://github.com/RogerioTostes/MyGitHubLibrary.git
+1. git clone https://github.com/RogerioTostes/MyGitHubLibrary.git
 
-cd MyGitHubLibrary
+2. cd MyGitHubLibrary
 
-docker-compose build
+3. docker-compose build
 
-docker-compose up
+3. docker-compose up
 
-Digitar o link https://localhost:5001/swagger/index.html
+4. Digitar o link https://localhost:5001/swagger/index.html
 
 **OBS: Para realizar operações com o crud, aguardar alguns minutos até o banco iniciar.**
