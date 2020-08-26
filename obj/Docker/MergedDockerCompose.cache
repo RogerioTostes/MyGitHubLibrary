@@ -10,8 +10,7 @@ services:
     - postgres
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_HTTPS_PORT: '5001'
-      ASPNETCORE_Kestrel__Certificates__Default__Password: password
+      ASPNETCORE_Kestrel__Certificates__Default__Password: SECRETPASSWORD
       ASPNETCORE_Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
       ASPNETCORE_URLS: https://+:443;http://+:80
     image: mygithublibrary
