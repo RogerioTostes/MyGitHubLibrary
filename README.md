@@ -18,3 +18,5 @@ docker-compose build
 docker-compose up
 
 Digitar o link https://localhost:5001/swagger/index.html
+
+**OBS: Para realizar operações com o crud, aguardar alguns minutos até o banco iniciar.**
